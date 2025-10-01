@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Tailwind generated files (nếu có cache hoặc output)
+*.css.map
+
+# Optional: system files
+Thumbs.db
